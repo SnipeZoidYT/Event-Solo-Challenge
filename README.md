@@ -1,32 +1,55 @@
-# 🎉 Event Solo Challenge 🚀  
+# 🏃‍♂️🚴‍♀️🚶‍♂️ **Activity Cost Calculator** 💰📊
 
-Welcome to the **Event Solo Challenge** repository! This is a C# project designed to help you master the concept of C# while having fun building a simple application. Whether you're a beginner or an experienced developer, this project will challenge your skills and deepen your understanding of programming.  
-
----
-
-## 🌟 **What's This Project About?**  
-
-This project is a hands-on challenge to implement C# events are a fundamental part of C# programming, enabling you to create applications that respond to user actions or other triggers.  
-
-In this project, you'll:  
-- 🛠️ Build a simple event-driven application.  
-- 🎯 Understand how to define, raise, and handle events.  
-- 🧠 Learn best practices for using events in C#.  
-- � Challenge yourself to extend the project with your own creative ideas!  
+Welcome to the **Activity Cost Calculator**! This program helps you calculate the cost of participating in various activities based on your age group, the duration of the event, and the activities you choose. It even applies a discount if your total cost exceeds £30! 🎉
 
 ---
 
-## 🛠️ **Features**  
+## 🛠️ **How It Works**
 
-- **Event Handling**: Learn how to create and manage events in C#.  
-- **Modular Design**: The project is designed to be easily extendable.  
-- **Challenge Mode**: Test your skills by completing the solo challenge included in the project.  
-- **Clean Code**: Follows best practices for readability and maintainability.  
+1. **Choose Your Activities** 🏞️🚴‍♂️🏃‍♀️  
+   - You can select one or more activities from the following options:
+     - **Walking** 🚶‍♂️
+     - **Cycling** 🚴‍♀️
+     - **Running** 🏃‍♂️  
+   - Enter your choices separated by commas (e.g., `walking, cycling`).
+
+2. **Select Your Age Group** 👶👨‍🦳👩‍🦰  
+   - The program will ask you to choose your age group:
+     - **Junior** (5 - 17 years)
+     - **Senior** (66 - 80 years)
+     - **Adult** (18 - 65 years)  
+   - Each group has a different base cost.
+
+3. **Pick the Duration** ⏳📅  
+   - Choose how long you want to participate in the event:
+     - **Half a day**
+     - **Day**
+     - **Week**  
+   - The cost will be adjusted based on the duration.
+
+4. **Get Your Total Cost** 💷  
+   - The program calculates the total cost based on your inputs.
+   - If your total exceeds £30, you’ll get a **10% discount**! 🎁
 
 ---
 
-## 🚀 **Getting Started**  
+## 🖥️ **How to Use**
 
-### Prerequisites  
-- 🖥️ [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.  
-- 📝 A code editor like [Visual Studio](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/).  
+1. Run the program.
+2. Follow the prompts to:
+   - Select your activities.
+   - Choose your age group.
+   - Pick the duration of the event.
+3. The program will display your **subtotal**, **discount** (if applicable), and **final total**.
+4. Press any key to exit the program.
+
+---
+
+## 💡 **Key Features**
+
+- **Multiple Activities**: Choose one or more activities at once.
+- **Age-Based Pricing**: Different costs for Juniors, Seniors, and Adults.
+- **Duration-Based Cost Adjustment**: Costs are adjusted based on how long you want to participate.
+- **Automatic Discount**: A 10% discount is applied if your total exceeds £30.
+
+---
