@@ -133,7 +133,7 @@ namespace Challenge
                     }
                 }
                 Console.WriteLine(" --------------------------");
-                Console.WriteLine($"|Your subtotal is £{cost}  |");
+                Console.WriteLine($"|Your subtotal is £{cost:F2}  |");
                 Console.WriteLine(" --------------------------");
 
 
@@ -153,7 +153,7 @@ namespace Challenge
 
                 // Telling the user thier total
                 Console.WriteLine(" ------------------------");
-                Console.WriteLine($"|Your total is £{total}  |");
+                Console.WriteLine($"|Your total is £{total:F2}   |");
                 Console.WriteLine(" ------------------------");
 
                 // Prompt the user to press any key to exit the program
